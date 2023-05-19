@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+
+
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Baskervville', serif;*/
+body{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    background-image: url(images/jp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body h1, h2{
+    font-family: 'Baskervville', serif;
+}
+
+.title{
+    font-family: 'Baskervville', serif;
+}
+
+p{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 200px;
+}
+
+header img{
+    display: flex;
+    border-radius: 90px;
+}
+
+header h2{
+    font-family: 'Dancing Script', cursive;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
