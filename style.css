@@ -6,7 +6,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1200px;
     background-image: url(images/sakura2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,21 +15,19 @@ body h1, h2{
     font-family: 'Baskervville', serif;
 }
 
-.title{
+h3{
     font-family: 'Baskervville', serif;
+    font-size: 15px;
 }
 
 p{
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
 }
+            /* HEADER */
 
 header{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 80%;
-    height: 200px;
 }
 
 header img{
@@ -39,18 +36,39 @@ header img{
 }
 
 .name{
-    display: flex;
-    flex-direction: column;
-    font-size: 30px;
+    
 }
 
 header h2{
     font-family: 'Dancing Script', cursive;
 }
 
+            /* MAIN */
+
 main{
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
+    
+}
+
+
+            /* LEFT SIDE */
+
+.left-side{
+    display: flex;
+}
+    
+
+.experiences{
+    display: flex;
+    
+}
+
+.experiences a{
+    float: left;
+}
+
+            /* RIGHT SIDE */
+
+.right-side{
+    display: flex;
 }
