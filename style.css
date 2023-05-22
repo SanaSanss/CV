@@ -27,20 +27,43 @@ p{
             /* HEADER */
 
 header{
-    
+    display: flex;
+    width: 100%;
 }
 
-header img{
-    
+.pic{
+    display: flex;
+    align-items: center;
+}
+
+.pic img{
+    height: 100px;
+    width: 100px;
     border-radius: 90px;
 }
 
 .name{
-    
+    /* margin-left: 15px; */
+    text-align: center;
 }
+
+.name h1{
+    margin-bottom: 10px;
+}
+
+.name h2{
+    margin-top: 0px;
+}
+
 
 header h2{
     font-family: 'Dancing Script', cursive;
+}
+
+.a-propos p{
+    padding: 15px;
+    margin: 0;
+    /* padding: 15px 30px; */
 }
 
             /* MAIN */
@@ -49,25 +72,45 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
 }
 
 
             /* LEFT SIDE */
 
-.left-side{
-    
-}
-    
-
-.experiences{
-    
-    
+.float{
+    display: flex;
+    flex-direction: row;
 }
 
-.experiences a{
+.skills{
     
 }
+.skill-progress{
+
+}
+
+.exp{
+    display: flex;
+
+}
+
+.exp li{
+   list-style: none;
+}
+
+.langues i{
+    color: mediumvioletred;
+}
+
+.langues span i{
+    color: #A9A9A9;
+}
+
 
             /* RIGHT SIDE */
 
