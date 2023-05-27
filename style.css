@@ -96,8 +96,20 @@ main {
     flex-direction: column;
 }
 
-.social-media img {
-    width: 15%;
+
+.skill-bar{
+    background-color: #f2e0f5;
+    border-radius: 9999px;
+    padding: 0.25rem;
+}
+
+.skill-progress{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: mediumvioletred;
+    color: black;
+    border-radius: 9999px;
 }
 
 
