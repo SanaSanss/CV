@@ -6,9 +6,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(images/sakura2.jpg);
+    /* background-image: url(images/sakura2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 body h1, h2{
@@ -28,7 +28,8 @@ p{
 
 header{
     display: flex;
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pic{
@@ -76,15 +77,19 @@ main{
 
 .social-media{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
+
+
+
+
 
 
             /* LEFT SIDE */
 
 .float{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .skills{
