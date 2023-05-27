@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,117 +11,112 @@ body{
     background-size: cover; */
 }
 
-body h1, h2{
+body h1,
+h2 {
     font-family: 'Baskervville', serif;
 }
 
-h3{
+h3 {
     font-family: 'Baskervville', serif;
     font-size: 15px;
 }
 
-p{
+p {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
 }
-            /* HEADER */
 
-header{
+        /* HEADER */
+
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.pic{
+.pic {
     display: flex;
     align-items: center;
 }
 
-.pic img{
+.pic img {
     height: 100px;
     width: 100px;
     border-radius: 90px;
 }
 
-.name{
+.name {
     /* margin-left: 15px; */
     text-align: center;
 }
 
-.name h1{
+.name h1 {
     margin-bottom: 10px;
 }
 
-.name h2{
+.name h2 {
     margin-top: 0px;
 }
 
 
-header h2{
+header h2 {
     font-family: 'Dancing Script', cursive;
 }
 
-.a-propos p{
+.a-propos p {
     padding: 0px 10px;
     width: 95%;
 }
 
             /* MAIN */
 
-main{
+
+        /* LEFT SIDE */
+
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.social-media{
+.float {
     display: flex;
     flex-direction: column;
 }
 
-.social-media img{
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media img {
     width: 15%;
 }
 
 
-
-
-
-
-            /* LEFT SIDE */
-
-.float{
-    display: flex;
-    flex-direction: column;
-}
-
-.skills{
-    
-}
-.skill-progress{
-
-}
-
-.exp{
+.exp {
     display: flex;
 
 }
 
-.exp li{
-   list-style: none;
+.exp li {
+    list-style: none;
 }
 
-.langues i{
+.langues i {
     color: mediumvioletred;
 }
 
-.langues span i{
-    color: #A9A9A9;
+.langues span i {
+    color: #b6b5b5;
 }
 
 
-            /* RIGHT SIDE */
-
-.right-side{
-    
-}
+/* RIGHT SIDE */
