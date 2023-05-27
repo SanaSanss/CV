@@ -79,6 +79,11 @@ main {
     align-items: center;
 }
 
+.left-side i{
+    color: #085380
+}
+
+
 .float {
     display: flex;
     flex-direction: column;
