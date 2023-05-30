@@ -1,38 +1,26 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap'); */
-
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
     /* background-image: url(images/sakura2.jpg);
     background-repeat: no-repeat;
     background-size: cover; */
 }
 
-body{
-    font-family: 'Source Sans Pro', sans-serif;
+
+body header h2 {
+    font-family: 'Baskervville', serif;
+    font-style: italic;
+    font-size: 20px;
 }
 
-
-
-body h1,
-h2 {
-    /* font-family: 'Baskervville', serif; */
-}
-
-h3 {
-    /* font-family: 'Baskervville', serif;
-    font-size: 15px; */
-}
-
-p {
-    /* font-family: 'Cormorant Garamond', serif;
-    font-weight: 600; */
-}
 
         /* HEADER */
 
@@ -79,8 +67,6 @@ header h2 {
             /* MAIN */
 
 
-        /* LEFT SIDE */
-
 main {
     display: flex;
     flex-direction: column;
@@ -89,6 +75,17 @@ main {
 
 .left-side i{
     color: #085380
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #b6b5b5;
+    margin: auto;
 }
 
 
@@ -112,13 +109,17 @@ main {
  	justify-content: space-around;
 }
 
+    /* MEDIA */
 
 .social-media {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
+    /* SKILLS*/
+    
 .skill-bar{
     background-color: #f2e0f5;
     border-radius: 9999px;
@@ -134,11 +135,7 @@ main {
     border-radius: 9999px;
 }
 
-
-.exp {
-    display: flex;
-
-}
+ /* EXPERIENCES */
 
 .exp li {
     list-style: none;
@@ -152,5 +149,10 @@ main {
     color: #b6b5b5;
 }
 
+.langue p{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
 
-/* RIGHT SIDE */
+
