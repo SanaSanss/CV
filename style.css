@@ -77,17 +77,7 @@ main {
     color: #085380
 }
 
-.icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #b6b5b5;
-    margin: auto;
-}
-
+    /* INFOS */
 
 .infos{
     display: flex;
@@ -100,8 +90,6 @@ main {
     width: 80%;
 }
 
-
-
 .info {
     display: flex;
     width: 70%;
@@ -109,12 +97,32 @@ main {
  	justify-content: space-around;
 }
 
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #b6b5b5;
+    margin: auto;
+}
+
+
     /* MEDIA */
 
 .social-media {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.social-media img{
+    width: 70%;
+}
+
+.social-media span{
+    width: 20%;
 }
 
 
