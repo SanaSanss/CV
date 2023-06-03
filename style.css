@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 
 
 
@@ -7,16 +9,18 @@ body {
     align-items: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
     /* background-image: url(images/sakura2.jpg);
     background-repeat: no-repeat;
     background-size: cover; */
 }
 
-
-body header h2 {
-    
-    font-size: 20px;
+body h1, h2{
+    font-family: 'Baskervville', serif;
+    font-family: 'Libre Baskerville', serif;
+    color: #cc4400;
 }
+
 
 
         /* HEADER */
@@ -26,6 +30,13 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
+body header h2{
+    font-family: 'Baskervville', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px
+}
+
 
 header i{
     color: ;
@@ -153,11 +164,41 @@ main {
     border-radius: 9999px;
 }
 
- /* EXPERIENCES */
+    /* LANGUES */
+
+.langues i {
+    color: #666699;
+}
+
+.langues span i {
+    color: #b6b5b5;
+}
+
+.langue p{
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+}
+
+    /*HOBBIES*/
+
+.hobby p{
+    display: flex;
+    align-items: center;
+}
+
+
+/* EXPERIENCES */
 
 .exp{
     display: flex;
     align-items: center;
+}
+
+.experiences h3{
+    color: #e64d00;
+    font-size: 17px;
+    height: 20px;
 }
 
 .exp img{
@@ -176,25 +217,23 @@ main {
     border-radius: 35px;
 }
 
-    /* LANGUES */
 
-.langues i {
-    color: #666699;
+    /* FORMATIONS */
+
+.form h3{
+    height: 50px;
+    padding-top: 5px;
 }
 
-.langues span i {
-    color: #b6b5b5;
+.form span h3{
+    height: 10px;
 }
 
-.langue p{
-    display: flex;
-    column-gap: 10px;
-    align-items: center;
+.form p{
+    height: 30px;
+    margin-top: 3px;
 }
 
-    /*HOBBIES*/
-
-.hobby p{
-    display: flex;
-    align-items: center;
+.border{
+    border-bottom: 5px solid #e64d00;
 }
