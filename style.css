@@ -10,6 +10,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    width: 95%;
     /* background-image: url(images/sakura2.jpg);
     background-repeat: no-repeat;
     background-size: cover; */
@@ -23,7 +25,7 @@ body h1, h2{
 
 
 
-        /* HEADER */
+         /* HEADER */
 
 header {
     display: flex;
@@ -38,10 +40,6 @@ body header h2{
 }
 
 
-header i{
-    color: ;
-}
-
 .pic {
     display: flex;
     align-items: center;
@@ -54,7 +52,7 @@ header i{
 }
 
 .name {
-    /* margin-left: 15px; */
+/* margin-left: 15px; */
     text-align: center;
 }
 
@@ -89,7 +87,7 @@ main {
     color: #666699
 }
 
-    /* INFOS */
+         /* INFOS */
 
 .info a:hover{
     color: darkmagenta;
@@ -114,6 +112,7 @@ main {
 .info{
     display: flex;
     width: 70%;
+    height: 45px;
  	align-items: center;
  	justify-content: space-around;
 }
@@ -130,12 +129,14 @@ main {
 }
 
 
-    /* MEDIA */
+        /* MEDIA */
 
 .social-media {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .social-media img{
@@ -147,8 +148,17 @@ main {
 }
 
 
-    /* SKILLS*/
-    
+        /* SKILLS*/
+
+
+.skill{
+    height: 45px;
+}
+
+.skill p{
+    height: 10px;
+}
+
 .skill-bar{
     background-color: #e1e0f5;
     border-radius: 9999px;
@@ -164,7 +174,13 @@ main {
     border-radius: 9999px;
 }
 
-    /* LANGUES */
+        /* LANGUES */
+
+
+.langues{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
 
 .langues i {
     color: #666699;
@@ -180,15 +196,21 @@ main {
     align-items: center;
 }
 
-    /*HOBBIES*/
+        /*HOBBIES*/
+
+.hobbies{
+    display: flex;
+    flex-direction: column;
+}
 
 .hobby p{
     display: flex;
     align-items: center;
+    height: 20px;
 }
 
 
-/* EXPERIENCES */
+        /* EXPERIENCES */
 
 .exp{
     display: flex;
@@ -196,7 +218,7 @@ main {
 }
 
 .experiences h3{
-    color: #e64d00;
+    color:  #c2250e;
     font-size: 17px;
     height: 20px;
 }
@@ -218,10 +240,26 @@ main {
 }
 
 
-    /* FORMATIONS */
+     /* FORMATIONS */
+
+.formations{
+    display: flex;
+    flex-direction: column;
+}
+
+.from{
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+}
+
+.form h2{
+    height: 5px;
+    padding-top: 10px;
+}
 
 .form h3{
-    height: 50px;
+    height: 35px;
     padding-top: 5px;
 }
 
@@ -230,10 +268,12 @@ main {
 }
 
 .form p{
-    height: 30px;
+    height: 25px;
     margin-top: 3px;
 }
 
 .border{
     border-bottom: 5px solid #e64d00;
 }
+
+  
