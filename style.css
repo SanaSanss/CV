@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 
 
 
@@ -16,8 +14,7 @@ body {
 
 
 body header h2 {
-    font-family: 'Baskervville', serif;
-    font-style: italic;
+    
     font-size: 20px;
 }
 
@@ -78,10 +75,19 @@ main {
 }
 
 .left-side i{
-    color: #085380
+    color: #666699
 }
 
     /* INFOS */
+
+.info a:hover{
+    color: darkmagenta;
+}
+
+.info a{
+    text-decoration: none;
+    color: black;
+}
 
 .infos{
     display: flex;
@@ -94,7 +100,7 @@ main {
     width: 80%;
 }
 
-.info {
+.info{
     display: flex;
     width: 70%;
  	align-items: center;
@@ -107,9 +113,9 @@ main {
     justify-content: center;
     width: 25px;
     height: 25px;
-    border-radius: 50%;
+    /* border-radius: 50%;
     background-color: #b6b5b5;
-    margin: auto;
+    margin: auto; */
 }
 
 
@@ -133,7 +139,7 @@ main {
     /* SKILLS*/
     
 .skill-bar{
-    background-color: #f2e0f5;
+    background-color: #e1e0f5;
     border-radius: 9999px;
     padding: 0.25rem;
 }
@@ -142,7 +148,7 @@ main {
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: mediumvioletred;
+    background-color: #666699;
     color: black;
     border-radius: 9999px;
 }
@@ -166,11 +172,14 @@ main {
     padding-left: 15px;
 }
 
+.exp span img{
+    border-radius: 35px;
+}
 
     /* LANGUES */
 
 .langues i {
-    color: mediumvioletred;
+    color: #666699;
 }
 
 .langues span i {
@@ -183,4 +192,9 @@ main {
     align-items: center;
 }
 
+    /*HOBBIES*/
 
+.hobby p{
+    display: flex;
+    align-items: center;
+}
