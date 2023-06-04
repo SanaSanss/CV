@@ -89,6 +89,10 @@ main {
 
          /* INFOS */
 
+.infos h2{
+    height: 10px;
+}
+
 .info a:hover{
     color: darkmagenta;
 }
@@ -178,7 +182,7 @@ main {
 
 
 .langues{
-    margin-top: 40px;
+    margin-top: 45px;
     margin-bottom: 30px;
 }
 
@@ -203,6 +207,10 @@ main {
     flex-direction: column;
 }
 
+.hobbies h2{
+    height: 20px;
+}
+
 .hobby p{
     display: flex;
     align-items: center;
@@ -217,10 +225,15 @@ main {
     align-items: center;
 }
 
+.experiences h2{
+    padding-top: 25px;
+}
+
+
 .experiences h3{
-    color:  #c2250e;
+    color:  #cc6600;
     font-size: 17px;
-    height: 20px;
+    height: 30px;
 }
 
 .exp img{
@@ -247,15 +260,19 @@ main {
     flex-direction: column;
 }
 
-.from{
+.formations h2{
+    height: 5px;
+}
+
+.form{
     display: flex;
     flex-direction: column;
     height: 140px;
 }
 
 .form h2{
-    height: 5px;
-    padding-top: 10px;
+    height: 10px;
+    padding-top: 15px;
 }
 
 .form h3{
